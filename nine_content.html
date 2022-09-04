@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Widget</title>
+</head>
+<body>
+    <div id="glasses-quiz-widget" data-source="https://example.com/" class="widget">
+        <div class="widget__header">
+            <div class="widget__header--content">
+                <img class="widget__header--back" src="./images/back.svg">
+                <span class="widget__header--text">9/10</span>
+                <img class="widget__header--exit" src="./images/exit.svg">
+            </div>
+            <span class="widget__header--line active__line" style="--i: 90%;"></span>
+        </div>
+
+        <div class="widget__content">
+            <p class="widget__content--text">Are you looking for any <br> particular eyewear brands?</p>
+            <ul class="widget__content--list">
+                <li class="widget__content--item">
+                    <h3 class="widget__content--heading">Yes, I have some in mind</h3>
+                </li>
+                <li class="widget__content--item">
+                    <h3 class="widget__content--heading">No, brand isn't important</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

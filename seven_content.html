@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Widget</title>
+</head>
+<body>
+    <div id="glasses-quiz-widget" data-source="https://example.com/" class="widget">
+        <div class="widget__header">
+            <div class="widget__header--content">
+                <img class="widget__header--back" src="./images/back.svg">
+                <span class="widget__header--text">7/10</span>
+                <img class="widget__header--exit" src="./images/exit.svg">
+            </div>
+            <span class="widget__header--line active__line" style="--i: 70%;"></span>
+        </div>
+
+        <div class="widget__content">
+            <p class="widget__content--text">How would you define <br> your facial features?</p>
+            <ul class="widget__content--list">
+                <li class="widget__content--item widget__item--hundred__height">
+                    <h3 class="widget__content--heading">Sharp</h3>
+                </li>
+                <li class="widget__content--item widget__item--hundred__height">
+                    <h3 class="widget__content--heading">Rounded</h3>
+                </li>
+                <li class="widget__content--item widget__item--hundred__height">
+                    <h3 class="widget__content--heading">In between</h3>
+                </li>
+            </ul>
+        </div>
+
+        <p class="widget__skip">I don’t know</p>
+    </div>
+</body>
+</html>
